@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(168, 164, 164);
+}
+.welcome{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(13, 104, 156);
+}
+.tabs{
+    display: flex;
+    position: relative;
+    left: 900px;
+}
+.tab{
+    padding-right: 20px;
+    background-color: white;
+    width: 7%;
+}

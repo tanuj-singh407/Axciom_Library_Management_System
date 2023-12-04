@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    background: url(book_cover.jpg);
+    background-size: cover;
+}
+  
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+  
+nav {
+    float: right;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+  
+main {
+    padding: 20px;
+}
+
+main h2{
+    color: lightblue;
+    font-size: 30px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.book {
+    margin: 10px;
+    width: 200px;
+}
+  
+.book img {
+    width: 100%;
+}
+  
+.book h3 {
+    margin-top: 10px;
+}
+  
+.book p {
+    margin-top: 5px;
+}
+  
+.book a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+  
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}

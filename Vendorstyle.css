@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(vendor_bg.jpg);
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.header {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(41, 39, 39, 0.144);
+}
+
+.tab {
+    padding: 10px;
+    color: black;
+}
